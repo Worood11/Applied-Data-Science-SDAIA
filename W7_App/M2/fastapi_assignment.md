@@ -6,6 +6,27 @@ In this assignment, you will develop a **Task Management System** backend using 
 
 ---
 
+### Application Goal
+
+The **Task Management System** is a RESTful API backend designed to help teams and individuals organize, track, and manage their work tasks. The application serves as the foundation for a collaborative task management platform where:
+
+**Core Functionality:**
+- **User Management**: Register and manage users with different roles (e.g., admin, manager, team member) and profile information
+- **Task Management**: Create, update, tasks with attributes like title, description, priority level, status, and assignment to users
+- **Data Validation**: Ensure data integrity through strict validation rules (e.g., task titles must be capitalized, priority levels must be from a predefined set)
+- **Query Capabilities**: Filter and search tasks by various criteria (status, priority, assigned user, etc.)
+
+**Real-World Use Case:**
+Imagine a development team using this API to track sprint tasks, a project manager assigning work items to team members, or a personal productivity app managing daily to-dos. The API provides the backend infrastructure that a frontend application (web or mobile) would consume to display and interact with tasks and users.
+
+**Key Features:**
+- Users can be created with profiles containing contact information and role assignments
+- Tasks can be created with validation ensuring proper formatting and valid priority levels
+- The API supports filtering and querying to find specific tasks or users
+- All data is validated at the API layer before processing, ensuring consistency and preventing invalid data from entering the system
+
+---
+
 ### Learning Objectives
 
 By the end of this project, you will be able to:
