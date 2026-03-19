@@ -1,0 +1,99 @@
+---
+title: Quantiles
+format: html
+---
+
+
+## Working with non-normal data
+
+When working with variables that don't distribute normally, we have to divide it. Things like:
+
+1. Income: 20% of the people own 80% of the land and the rest 20% is distributed normally on those 80%
+2. Popularity: 80% of the traffic goes to ChatGPT and the rest 20% is distributed normally on those 80%
+
+Dividing up Distributions: Quantiles
+**Quantiles** are used to divide the data by ranges (**not necessarily equally**)
+
+The most common types of quantiles are:
+
+1. **Percentiles**: divide up the distribution into 100 equal parts.
+2. **Quartiles**: divide up the distribution into 4 equal parts.
+3. **Deciles**: divide up the distribution into 10 equal parts.
+
+Anytime that a set of data needs to be broken into digestible chunks / groups, *quantiles* are helpful.
+The most well-known example of a quantile is the **median**, which divides a distribution in two at its midpoint:
+np.median(scores) == np.quantile(scores, 0.5)
+### Percentiles \%
+
+**Percentiles** divide the distribution at any point out of one hundred ("pour cent" is French for "out of a hundred").
+
+For example, if we'd like to identify the threshold for the top 5% of a distribution, we'd cut it at the 95th percentile. Or, for the top 1%, we'd cut at the 99th percentile.
+#### Example 1: Income Distribution
+
+Sociologists like Dennis Gilbert break societal classes down into six classes based on source of income, occupation, and educational attainment.
+
+The Privileged Classes
+
+* The Capitalist Class (Top 1%)
+* The Upper-Middle Class (Next 14%)
+
+The Majority Classes
+
+* The Lower-Middle Class (Next 30%)
+* The Working Class (Next 30%)
+
+The Lower Classes
+
+* The Working Poor (Next 13%)
+* The Underclass (Bottom 12%)
+# Dummy data of incomes
+incomes = np.array([25000, 32000, 45000, 50000, 62000, 75000, 110000, 500000, 1000000])
+p = 1
+
+p -= 0.01
+top_one_percent = np.quantile(incomes, p)
+
+p -= 0.14
+upper_middle_class = np.quantile(incomes, p)
+
+p -= 0.30
+lower_middle_class = np.quantile(incomes, p)
+
+p -= 0.30
+working_class = np.quantile(incomes, p)
+
+p -= 0.13
+working_poor = np.quantile(incomes, p)
+
+p -= 0.12
+underclass = np.quantile(incomes, p)
+
+print(f"Top 1%: {top_one_percent}")
+print(f"Upper Middle Class: {upper_middle_class}")
+print(f"Lower Middle Class: {lower_middle_class}")
+print(f"Working Class: {working_class}")
+print(f"Working Poor: {working_poor}")
+print(f"Underclass: {underclass}")
+#### Example 2: Performance
+
+A kid scored 90 on the exam. What do you think?
+
+- A. the kid studied well
+- B. the kid is smart
+- C. the test was easy
+
+How do you know which one is more likely to be true?
+import numpy as np
+import pandas as pd
+
+# 10 students total.
+# 8 students (80%) scored >= 90 (the grade 'A')
+# 2 students (20%) scored < 90
+data = {
+    'Student': ['Student 1', 'Student 2', 'Student A (You)', 'Student 4', 'Student 5', 
+                'Student 6', 'Student 7', 'Student 8', 'Student 9', 'Student 10'],
+    'Score': [80, 85, 90, 94, 93, 94, 95, 96, 98, 99]
+}
+df = pd.DataFrame(data)
+df
+np.quantile(df['Score'], 0.2)

@@ -2,7 +2,7 @@
 format: "html"
 ---
 
-## Schedule
+## Courses
 
 1. Python
 2. [Applied Data Science](W2/index.qmd)
