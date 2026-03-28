@@ -22,141 +22,102 @@ format: revealjs
     Develop, debug, evaluate deploy, and monitor LLM-driven AI Agents to automate tasks involving unstructured data.
 - **Course 6: Agentic Engineering**  
     Use today's best practices to accelerate software development in your codebase. Previously known as *Vibe Coding*.
-- **Capstone Project**  
-    Build agentic AI solutions to solve problems special to AI; utilizing skills learned in the bootcamp.
-
 :::
+
+## Capstone Project
+
+Utilize various skills learned during the bootcamp to solve problems that needs AI.
+
+Tentative schedule:
+
+1. Ideation and team formation (by end of week 4)
+2. Proposal, project plan, and approval (week 5)
+3. Phase 1 (end of week 6): progress presentation
+4. Phase 2 (end of week 7): progress presentation
+5. Final submission and evaluation (week 8)
+
+## Sessions and Break times
+
+- **Session 1**: 9:00 PM - 9:50 PM
+- 10 minutes break
+- **Session 2**: 10:00 PM - 10:50 PM
+- 10 minutes break
+- **Session 3**: 11:00 PM - 12:00 PM
+- Lunch break 12:00 - 1:00 PM
+- **Session 4 (Labs and Exercises)**: 1:00 - 3:00 PM
 
 ## Pedagogy
 
-You will do most of the work.
-
 ![Figure: Benjamin Franklin quote](../assets/tell_me_and_I_forget.png){fig-align="center"}
 
-## Learning Components
+## Learning Material
 
-1. Slides
-2. Lecture Notes
-3. Labs
-4. Exercises
-5. Quizzes
-6. Projects
-
-## 1. Lecture Notes
-
-- The detailed learning material in written format.
-- Spend enough focused reading time to read them to completion.
-- **When?**: Read before (and after) class
-
-
-## 2. Slides
-
-- Facilitate instructors' lesson delivery.
-- Press `S` to open up Speaker Notes for more details.
-- **When?**: listten-in carefully to instructor in class.
-
-
-## 3. Labs
-
-- Live documents of worked-out examples
-- "What if?" ask yourself, modify parts of the code cells and re-run them to verify understanding.
-- **When?**: to be done in class.
-
-
-## 4. Exercises
-
-- Assignments with increasing level of difficulty
-- Some will test **knowledge**. Others will test **skills** (programming)
-- You are expected to finish them in class, and before the next day
-- **When?**: to be done in class.
-
+1. **Slides**: concepts, mental models, connecting ideas, and discussion
+2. **Labs**: details, docs, debugging, and what-ifs
+3. **Exercises**: do it yourself
 
 ## Submit your Work {#submit-your-work}
 
 Your GitHub repo is your **proof-of-work**. Open the repo [HassanAlgoz/python](https://github.com/HassanAlgoz/python/tree/main) then:
 
 ::: {.incremental}
-
 1. Fork it from the GitHub website
 2. Clone it using VS Code locally
 3. Create a `student/` folder in which you will include:
     - A `student/README.md` file with your full name in there
-    - **Labs**
     - **Exercises**
     - **Projects**
-
 :::
 
-## Commits
+## Commit Exercises
 
-1. First, `git add` and `git commit` the lab/exercise before solving it.
+**Mandatory**: it is required that you follow this instruction to get graded:
+
+::: {.incremental}
+1. First, `git add` and `git commit` the exercise before solving it.
 2. Each subsequent commit must have
-    1. Week number
+    1. Course number
     2. Module number
     3. Exercise number or name
     4. Question number or title
+3. Exercises are due end of day (11:59 PM)  
+    Make sure to `git push` before then
+::: 
 
-## Commit Examples
+## Clean Commit Examples
+
+It is mandatory to follow this example:
 
 ::: {.incremental}
-
-- **Labs**:
-    1. First commit: `"W1 M2 Lab1: init"` for week 1, module 2, lab 1
-    2. Second commit: `"W1 M2 Lab1: done"` to indicate you completed it
 - **Execises**:
-    1. `"W1 M2 Ex1: init"`
-    2. `"W1 M2 Ex1: q1"`
-    2. `"W1 M2 Ex1: q2"`
-    2. `"W1 M2 Ex2: init"`
+    1. `"C1 M2 Ex1: init"` (1st exercise)
+    2. `"C1 M2 Ex1: q1"`   (question 1 solved)
+    2. `"C1 M2 Ex1: q2"`
+    2. `"C1 M2 Ex2: init"` (started 2nd exercise)
 - **Projects**:
-    1. `"W1 Project: init"`
-    2. `"W1 Project: step 1. univariate analysis"`
-    3. `"W1 Project: step 2. pairplots"`
+    1. `"C1 Project: init"`
+    2. `"C1 Project: step 1. univariate analysis"`
+    3. `"C1 Project: step 2. pairplots"`
 ::: 
 
-## Deadlines
+## Frequent one-to-one check-ins
 
-::: {.incremental}
-- Labs must be **pushed daily** (due end of tomorrow's last session)
-- Exercises must be **pushed by Thursday** (due end of course)
-- Projects must be **pushed by Sunday** (due start of next course)
-- Commit history is analyzed to detect cheating
-- Zero points for grouping everything into one big commit
-::: 
+By end of each day, we will have one-to-one check-ins with you (random selection):
+
+1. You will lose points if you did not commit (and push) exercise solution by end of yesterday
+2. You will lose points if your commits aren't clean
+
+If both of the above are good:
+
+1. You will be asked to open the laptop, show and explain your solutions to specific exercises
+2. You will be asked a few questions about the learning material covered so far
 
 ## Evaluation
 
-Per course:
-
-- Quiz
-- Project
-
-## 5. Quizzes
-
-Test knowledge and skills based on learning outcomes.
-
-- Mostly questions from current course
-- **Bonus**: Some questions from previous courses
-- **When?**: Thursdays (end of course)
-
-## 6. Projects
-
-Apply learning to new situations.
-
-Each project will be different depending on the course.
-
-## Presentation and Feedback
-
-After completing the project, prepare a classroom **Presentation** on Sunday (before start of next course).
-
-::: {.incremental}
-- What goes into the presentation depends on the project
-- **Completeness**: points will be deducted if you missed requirements
-- **Competency**: points will be deducted if you lack understanding
-    1. you express ideas accurately in your own words (memorization + understanding)
-    2. your answer matches the level of detail required by the question (stay within topic)
-    3. you know when to say "I don't know" (awareness of knowledge/skill gaps)
-:::
+1. **Weekly Quiz**: test your understanding
+2. **Weekly Project (individual)**: apply learned skills
+3. **Project Presentation**: on the day we start the next course (usually Sunday)  
+   Prepare to be asked during the presentation about your work.
 
 ## Why Presentations?
 
@@ -167,28 +128,7 @@ After completing the project, prepare a classroom **Presentation** on Sunday (be
     3. The **quality of your ideas**
 - .. in that order (as [Professor Winston puts it](https://www.youtube.com/watch?v=Unzc731iCUY)).
 - Your ability to communicate ideas is ultimately more critical to your success than the ideas themselves.
-- We want you to build this skill throuought the bootcamp
 :::
-
-
-## Learning and Desirable Difficulty
-
-Your brain wants comfort; but as we all know- No pain. No gain. This is true for learning as it is true for exercising.
-
-::: {.incremental}
-- No one is perfect. Fear of mistakes is a psychological barrier to growth and exceeding your limits.
-- Make as much mistakes as you can; to get as much feedback as you can while you are in class.
-- Get feedback and check your assumptions and understanding; before you "move on".
-- Getting help from others is good; but be sure *YOU* get it.
-::: 
-
-## Policy: Getting Help from AI
-
-::: {.incremental}
-- Relying on AI to solve your issues is destructive to your learning.
-- Making mistakes is totally fine, but cheating will result in banning from the bootcamp.
-- We have sophisticated ways of detection.
-::: 
 
 ## Bad Students
 

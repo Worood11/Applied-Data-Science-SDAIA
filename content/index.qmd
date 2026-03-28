@@ -11,14 +11,8 @@ format: "html"
 ### Communication
 
 - Bookmark the [Shared Drive](https://drive.google.com/drive/folders/1X-mQ17zpkXD4VAeOfkSMKuPmCNlhMw1N?usp=sharing)
-- [Join the Classroom](https://classroom.google.com/h) using the code
-
-### Attendance
-
-- Being late counts as 1/4 absence
-- Leaving class very frequently counts as 1/2 absence
-- Execused absences must be officially documented
-- Four absence points will result in explusion
+- [Join the Classroom](https://classroom.google.com/h) using the code  
+    announcements, deadlines, submission, quizzes, grades, ..etc.
 
 ## Slides Tips
 
