@@ -15,7 +15,7 @@ Learning outcomes:
 
 Lessons and labs:
 
-1. [Introduction to Data Science Processes and Roles](./M1/lessons/01_intro.qmd)
+1. [Introduction to Data Science Processes and Roles](./M1/lessons/01_slides_intro.qmd)
 2. [Lab 1: Confirmatory Data Analysis (CDA)- blind typing experiment](./M1/lessons/02_lab_cda_blind_typing.ipynb)
 3. [Lab 2: Exploratory Data Analysis (EDA)- US Census 2010-2019](./M1/lessons/03_lab_eda_census.ipynb)
 
