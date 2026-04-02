@@ -182,6 +182,15 @@ Lessons:
 
 1. [Hypothesis Testing](./M4/exercises/hypothesis_ex.ipynb) (4 questions)
 
+
+## Projects
+
+You will do all three projects, but only 1 will be presented:
+
+- [Project 1: Fast Food Marketing Campaign A/B Test](./Project/p1/p1_fast_food.qmd)
+- [Project 2: Student Exam Performance Factors](./Project/p2/p2_student_exam.qmd)
+- [Project 3: Global Mental Health Crisis Index 2026](./Project/p3/p3_GMHCI-2026.qmd)
+
 ---
 
 ## References
